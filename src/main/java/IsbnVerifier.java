@@ -1,10 +1,8 @@
 class IsbnVerifier {
-
+    HelperInterface helper = new HelperService();
     boolean isValid(String stringToVerify) {
-
-
-
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
-    }
+        Boolean answer = helper.isValid(stringToVerify);
+        return answer;
+}
 
 }
