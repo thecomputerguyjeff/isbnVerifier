@@ -9,6 +9,9 @@ public class IsbnHelper implements IsbnInterface {
     public boolean properLength(String  isbns) {
 
         if (calculateChecksum(isbns) == 0) {
+
+            isbn = isbn.replaceAll(" ", "");
+
             if (isbn.length() == 10)
                 return true;
             else
@@ -27,13 +30,15 @@ public class IsbnHelper implements IsbnInterface {
             else
                 try {newNumber =Integer.parseInt(isbn.substring(integer));}
                 catch (Exception e){
-                    newNumber=1;
+                    isbn = isbn.replace(isbn.substring(integer, integer+1)," ");
+                    newNumber=0;
                 }
         }
         else
             try {newNumber =Integer.parseInt(isbn.substring(integer, integer+1));}
             catch (Exception e){
-                newNumber=1;
+                isbn = isbn.replace(isbn.substring(integer, integer+1)," ");
+                newNumber=0;
             }
 
         return newNumber;
