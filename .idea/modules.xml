@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/isbn-verifier.iml" filepath="$PROJECT_DIR$/isbn-verifier.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/isbn-verifier.main.iml" filepath="$PROJECT_DIR$/.idea/modules/isbn-verifier.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/isbn-verifier.test.iml" filepath="$PROJECT_DIR$/.idea/modules/isbn-verifier.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/isbnVerifier.iml" filepath="$PROJECT_DIR$/.idea/modules/isbnVerifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/isbnVerifier.main.iml" filepath="$PROJECT_DIR$/.idea/modules/isbnVerifier.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/isbnVerifier.test.iml" filepath="$PROJECT_DIR$/.idea/modules/isbnVerifier.test.iml" />
     </modules>
   </component>
 </project>

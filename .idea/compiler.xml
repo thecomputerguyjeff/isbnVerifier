@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="isbn-verifier.main" target="1.8" />
       <module name="isbn-verifier.test" target="1.8" />
+      <module name="isbnVerifier.main" target="1.9" />
+      <module name="isbnVerifier.test" target="1.9" />
     </bytecodeTargetLevel>
   </component>
 </project>
